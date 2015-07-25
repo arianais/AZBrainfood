@@ -306,6 +306,7 @@
                         <segue destination="Kkh-6w-cgg" kind="relationship" relationship="viewControllers" id="ghS-pc-Cwi"/>
                         <segue destination="1Dd-qB-pnV" kind="relationship" relationship="viewControllers" id="GPH-sN-A6K"/>
                         <segue destination="UfM-mn-WAW" kind="relationship" relationship="viewControllers" id="kBe-D4-YDE"/>
+                        <segue destination="acM-hK-ZDL" kind="relationship" relationship="viewControllers" id="Mrf-fR-Rzb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tU4-zb-yA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -666,7 +667,7 @@
             </objects>
             <point key="canvasLocation" x="739.5" y="-3097.5"/>
         </scene>
-        <!--Grocery Stores View Controller-->
+        <!--Locator-->
         <scene sceneID="acb-t8-Uoa">
             <objects>
                 <viewController id="acM-hK-ZDL" customClass="GroceryStoresViewController" sceneMemberID="viewController">
@@ -713,6 +714,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Locator" image="locator.png" id="BoG-7D-bj1"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="back" destination="FLX-Tc-KQ9" id="vVe-jM-37G"/>
@@ -723,7 +725,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yre-5w-cBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1935.5" y="-3063.5"/>
+            <point key="canvasLocation" x="850.5" y="-3931.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HWh-s1-AF7">
@@ -862,11 +864,11 @@
             </objects>
             <point key="canvasLocation" x="821.5" y="-2277.5"/>
         </scene>
-        <!--Item-->
+        <!--Food-->
         <scene sceneID="x7y-si-HxF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UfM-mn-WAW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="hourglass.png" id="cmW-02-62q"/>
+                    <tabBarItem key="tabBarItem" title="Food" image="hourglass.png" id="cmW-02-62q"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="6w2-Ry-7yX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FVH-9U-h8O">
@@ -939,8 +941,9 @@
         <image name="evds-logo.png" width="140" height="140"/>
         <image name="farns-logo.png" width="140" height="140"/>
         <image name="food.png" width="192" height="83"/>
-        <image name="hourglass.png" width="33" height="60"/>
+        <image name="hourglass.png" width="14" height="25"/>
         <image name="kofc_logo.jpg" width="140" height="140"/>
+        <image name="locator.png" width="33" height="30"/>
         <image name="logo-grey.png" width="300" height="62"/>
         <image name="okland-logo.png" width="140" height="140"/>
         <image name="print.png" width="192" height="83"/>
