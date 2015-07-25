@@ -862,11 +862,15 @@
             </objects>
             <point key="canvasLocation" x="821.5" y="-2277.5"/>
         </scene>
-        <!--Item-->
+        <!--Food-->
         <scene sceneID="x7y-si-HxF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UfM-mn-WAW" sceneMemberID="viewController">
+<<<<<<< HEAD
+                    <tabBarItem key="tabBarItem" title="Food" image="hourglass_silhouette.png" id="cmW-02-62q"/>
+=======
                     <tabBarItem key="tabBarItem" title="Item" image="hourglass.png" id="cmW-02-62q"/>
+>>>>>>> 410c607f8c983911099a57b4610dd22678a434d0
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="6w2-Ry-7yX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FVH-9U-h8O">
@@ -939,7 +943,11 @@
         <image name="evds-logo.png" width="140" height="140"/>
         <image name="farns-logo.png" width="140" height="140"/>
         <image name="food.png" width="192" height="83"/>
+<<<<<<< HEAD
+        <image name="hourglass_silhouette.png" width="3267" height="6025"/>
+=======
         <image name="hourglass.png" width="33" height="60"/>
+>>>>>>> 410c607f8c983911099a57b4610dd22678a434d0
         <image name="kofc_logo.jpg" width="140" height="140"/>
         <image name="logo-grey.png" width="300" height="62"/>
         <image name="okland-logo.png" width="140" height="140"/>
