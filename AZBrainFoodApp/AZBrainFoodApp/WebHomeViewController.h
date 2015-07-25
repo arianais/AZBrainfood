@@ -10,5 +10,6 @@
 
 @interface WebHomeViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIButton *back;
-
+@property (strong, nonatomic) IBOutlet UIWebView *webview;
+@property (strong, nonatomic) NSString *link;
 @end

@@ -87,14 +87,15 @@
 {
     NSNumber *selRow = [[NSNumber alloc] initWithInteger:indexPath.row];
     self.place = selRow;
+    [self performSegueWithIdentifier:@"show" sender:self];
     
-    [self performSegueWithIdentifier:@"showy" sender:self];
     
 
     
     
     //self.place = [NSNumber numberWithLong:indexPath.row];
 }
+ 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
        if ([segue.identifier isEqualToString:@"show"]) {

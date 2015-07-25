@@ -129,6 +129,8 @@
 		D263D80D1B6326B30062401D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D263D80B1B6326B30062401D /* LaunchScreen.xib */; };
 		D263D8141B63327B0062401D /* WebHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D263D8131B63327B0062401D /* WebHomeViewController.m */; };
 		D263D8151B63327B0062401D /* WebHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D263D8131B63327B0062401D /* WebHomeViewController.m */; };
+		D2AF3BB81B6345CC0037DFCE /* hourglass.png in Resources */ = {isa = PBXBuildFile; fileRef = D2AF3BB71B6345CC0037DFCE /* hourglass.png */; };
+		D2AF3BBA1B6345F70037DFCE /* locator.png in Resources */ = {isa = PBXBuildFile; fileRef = D2AF3BB91B6345F70037DFCE /* locator.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,6 +235,8 @@
 		D263D80B1B6326B30062401D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
 		D263D8121B63327B0062401D /* WebHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebHomeViewController.h; sourceTree = "<group>"; };
 		D263D8131B63327B0062401D /* WebHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebHomeViewController.m; sourceTree = "<group>"; };
+		D2AF3BB71B6345CC0037DFCE /* hourglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglass.png; sourceTree = "<group>"; };
+		D2AF3BB91B6345F70037DFCE /* locator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locator.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,6 +412,8 @@
 				D263D7A01B6324300062401D /* icon.jpg */,
 				D263D7A21B6324300062401D /* Info.plist */,
 				D263D7A31B6324300062401D /* kofc_logo.jpg */,
+				D2AF3BB91B6345F70037DFCE /* locator.png */,
+				D2AF3BB71B6345CC0037DFCE /* hourglass.png */,
 				D263D7A41B6324300062401D /* logo-grey.png */,
 				D263D7A61B6324300062401D /* okland-logo.png */,
 				D263D7A71B6324300062401D /* PLViewController.h */,
@@ -514,6 +520,7 @@
 				D263D7D31B6324300062401D /* cowely-logo.png in Resources */,
 				D263D7ED1B6324300062401D /* okland-logo.png in Resources */,
 				D263D7D71B6324300062401D /* donate.png in Resources */,
+				D2AF3BB81B6345CC0037DFCE /* hourglass.png in Resources */,
 				D263D7FD1B6324300062401D /* unitedway-logo.png in Resources */,
 				D263D7DD1B6324300062401D /* food.png in Resources */,
 				D263D7DB1B6324300062401D /* farns-logo.png in Resources */,
@@ -530,6 +537,7 @@
 				D263D7F11B6324300062401D /* print.png in Resources */,
 				D263D7F71B6324300062401D /* steelefoundation2.png in Resources */,
 				D263D7F91B6324300062401D /* time.png in Resources */,
+				D2AF3BBA1B6345F70037DFCE /* locator.png in Resources */,
 				D263D7C91B6324300062401D /* boeingecf.png in Resources */,
 				D263D7D51B6324300062401D /* dollar-white-md.png in Resources */,
 				D263D7B71B6324300062401D /* alpinevalley-logo.png in Resources */,

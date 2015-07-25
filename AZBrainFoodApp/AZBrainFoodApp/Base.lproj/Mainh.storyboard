@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hkx-U0-ubL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hkx-U0-ubL">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Sponsors-->
@@ -351,15 +351,6 @@
                                     <action selector="donateButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MUW-0L-JNU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAY-Vg-7z8">
-                                <rect key="frame" x="91" y="272" width="192" height="83"/>
-                                <state key="normal" image="print.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="printButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0Dt-gQ-4BK"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cn-2F-MDS">
                                 <rect key="frame" x="91" y="363" width="192" height="83"/>
                                 <state key="normal" image="food.png">
@@ -385,6 +376,15 @@
                                 </state>
                                 <connections>
                                     <segue destination="j7U-AV-D56" kind="push" id="Wtn-XX-I7a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAY-Vg-7z8">
+                                <rect key="frame" x="91" y="272" width="192" height="83"/>
+                                <state key="normal" image="print.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="printButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0Dt-gQ-4BK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -615,7 +615,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="uVc-iI-rQL" id="xrf-Wc-HfU"/>
-                        <segue destination="Bzg-9X-o8F" kind="push" identifier="showy'" id="YPq-6E-fa6"/>
+                        <segue destination="Bzg-9X-o8F" kind="push" identifier="show" id="YPq-6E-fa6"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JsA-VA-pAa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -866,7 +866,7 @@
         <scene sceneID="x7y-si-HxF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UfM-mn-WAW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="cmW-02-62q"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="hourglass.png" id="cmW-02-62q"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="6w2-Ry-7yX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FVH-9U-h8O">
@@ -914,7 +914,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="back" destination="U98-TP-nLZ" id="S37-07-jvU"/>
-                        <outlet property="webview" destination="s0c-65-YV0" id="vQL-gW-rfl"/>
+                        <outlet property="webview" destination="s0c-65-YV0" id="PBS-A2-HDJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DWr-5l-5Oe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -939,6 +939,7 @@
         <image name="evds-logo.png" width="140" height="140"/>
         <image name="farns-logo.png" width="140" height="140"/>
         <image name="food.png" width="192" height="83"/>
+        <image name="hourglass.png" width="33" height="60"/>
         <image name="kofc_logo.jpg" width="140" height="140"/>
         <image name="logo-grey.png" width="300" height="62"/>
         <image name="okland-logo.png" width="140" height="140"/>
