@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A955D271B6337B30070EFFE /* hourglass_silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A955D251B6337B30070EFFE /* hourglass_silhouette.png */; };
-		7A955D281B6337B30070EFFE /* navigation-clipart-navigation-logo1-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A955D261B6337B30070EFFE /* navigation-clipart-navigation-logo1-md.png */; };
 		D2094D271B62F3AD00D96389 /* GroceryStoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2094D261B62F3AD00D96389 /* GroceryStoresViewController.m */; };
 		D22FBA9B1B62A70600B03BC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FBA9A1B62A70600B03BC0 /* main.m */; };
 		D22FBA9E1B62A70600B03BC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FBA9D1B62A70600B03BC0 /* AppDelegate.m */; };
@@ -61,6 +59,8 @@
 		D263D7BE1B6324300062401D /* AZBrainfood_logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = D263D78A1B6324300062401D /* AZBrainfood_logo2.png */; };
 		D263D7BF1B6324300062401D /* AZBrainFoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D263D78B1B6324300062401D /* AZBrainFoodApp.xcdatamodeld */; };
 		D263D7C01B6324300062401D /* AZBrainFoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D263D78B1B6324300062401D /* AZBrainFoodApp.xcdatamodeld */; };
+		D263D7C11B6324300062401D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D263D78D1B6324300062401D /* LaunchScreen.xib */; };
+		D263D7C21B6324300062401D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D263D78D1B6324300062401D /* LaunchScreen.xib */; };
 		D263D7C31B6324300062401D /* Mainh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D263D78F1B6324300062401D /* Mainh.storyboard */; };
 		D263D7C41B6324300062401D /* Mainh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D263D78F1B6324300062401D /* Mainh.storyboard */; };
 		D263D7C51B6324300062401D /* bashas-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D263D7911B6324300062401D /* bashas-logo.png */; };
@@ -144,8 +144,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A955D251B6337B30070EFFE /* hourglass_silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglass_silhouette.png; sourceTree = "<group>"; };
-		7A955D261B6337B30070EFFE /* navigation-clipart-navigation-logo1-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation-clipart-navigation-logo1-md.png"; sourceTree = "<group>"; };
 		D2094D251B62F3AD00D96389 /* GroceryStoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryStoresViewController.h; sourceTree = "<group>"; };
 		D2094D261B62F3AD00D96389 /* GroceryStoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryStoresViewController.m; sourceTree = "<group>"; };
 		D22FBA951B62A70600B03BC0 /* AZBrainFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZBrainFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +194,7 @@
 		D263D7891B6324300062401D /* AZBrainfood_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AZBrainfood_logo.png; sourceTree = "<group>"; };
 		D263D78A1B6324300062401D /* AZBrainfood_logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AZBrainfood_logo2.png; sourceTree = "<group>"; };
 		D263D78C1B6324300062401D /* AZBrainFoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AZBrainFoodApp.xcdatamodel; sourceTree = "<group>"; };
+		D263D78E1B6324300062401D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D263D7901B6324300062401D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Mainh.storyboard; sourceTree = "<group>"; };
 		D263D7911B6324300062401D /* bashas-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bashas-logo.png"; sourceTree = "<group>"; };
 		D263D7921B6324300062401D /* boeing-logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boeing-logo1.png"; sourceTree = "<group>"; };
@@ -389,10 +388,9 @@
 				D263D7851B6324300062401D /* about.png */,
 				D263D7861B6324300062401D /* alpinevalley-logo.png */,
 				D263D7891B6324300062401D /* AZBrainfood_logo.png */,
-				7A955D261B6337B30070EFFE /* navigation-clipart-navigation-logo1-md.png */,
-				7A955D251B6337B30070EFFE /* hourglass_silhouette.png */,
 				D263D78A1B6324300062401D /* AZBrainfood_logo2.png */,
 				D263D78B1B6324300062401D /* AZBrainFoodApp.xcdatamodeld */,
+				D263D78D1B6324300062401D /* LaunchScreen.xib */,
 				D263D78F1B6324300062401D /* Mainh.storyboard */,
 				D263D8121B63327B0062401D /* WebHomeViewController.h */,
 				D263D8131B63327B0062401D /* WebHomeViewController.m */,
@@ -535,7 +533,6 @@
 				D263D7E51B6324300062401D /* Info.plist in Resources */,
 				D263D7C71B6324300062401D /* boeing-logo1.png in Resources */,
 				D263D8011B6324300062401D /* weathermasters.png in Resources */,
-				7A955D271B6337B30070EFFE /* hourglass_silhouette.png in Resources */,
 				D263D7D91B6324300062401D /* evds-logo.png in Resources */,
 				D263D7F11B6324300062401D /* print.png in Resources */,
 				D263D7F71B6324300062401D /* steelefoundation2.png in Resources */,
@@ -546,7 +543,7 @@
 				D263D7B71B6324300062401D /* alpinevalley-logo.png in Resources */,
 				D263D7E11B6324300062401D /* icon.jpg in Resources */,
 				D263D7B31B6324300062401D /* 2009Mesa Hohokam logo.jpg in Resources */,
-				7A955D281B6337B30070EFFE /* navigation-clipart-navigation-logo1-md.png in Resources */,
+				D263D7C11B6324300062401D /* LaunchScreen.xib in Resources */,
 				D263D7CF1B6324300062401D /* brain4.png in Resources */,
 				D22FBAA91B62A70700B03BC0 /* Images.xcassets in Resources */,
 				D263D7E91B6324300062401D /* logo-grey.png in Resources */,
@@ -583,6 +580,7 @@
 				D263D8021B6324300062401D /* weathermasters.png in Resources */,
 				D263D8001B6324300062401D /* verhaaren.png in Resources */,
 				D263D7D41B6324300062401D /* cowely-logo.png in Resources */,
+				D263D7C21B6324300062401D /* LaunchScreen.xib in Resources */,
 				D263D7DC1B6324300062401D /* farns-logo.png in Resources */,
 				D263D7EA1B6324300062401D /* logo-grey.png in Resources */,
 				D263D7B81B6324300062401D /* alpinevalley-logo.png in Resources */,
@@ -648,6 +646,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D263D78D1B6324300062401D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D263D78E1B6324300062401D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		D263D78F1B6324300062401D /* Mainh.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
