@@ -11,7 +11,6 @@
 		D22FBA9B1B62A70600B03BC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FBA9A1B62A70600B03BC0 /* main.m */; };
 		D22FBA9E1B62A70600B03BC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FBA9D1B62A70600B03BC0 /* AppDelegate.m */; };
 		D22FBAA11B62A70700B03BC0 /* AZBrainFoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D22FBA9F1B62A70700B03BC0 /* AZBrainFoodApp.xcdatamodeld */; };
-		D22FBAA71B62A70700B03BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22FBAA51B62A70700B03BC0 /* Main.storyboard */; };
 		D22FBAA91B62A70700B03BC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22FBAA81B62A70700B03BC0 /* Images.xcassets */; };
 		D22FBAB81B62A70700B03BC0 /* AZBrainFoodAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FBAB71B62A70700B03BC0 /* AZBrainFoodAppTests.m */; };
 		D22FBAC31B62AC0C00B03BC0 /* ExpirationDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22FBAC21B62AC0C00B03BC0 /* ExpirationDateTableViewController.m */; };
@@ -128,6 +127,8 @@
 		D263D8091B6325EA0062401D /* BrainfoodFactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D263D8041B6325EA0062401D /* BrainfoodFactsViewController.m */; };
 		D263D80C1B6326B30062401D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D263D80B1B6326B30062401D /* LaunchScreen.xib */; };
 		D263D80D1B6326B30062401D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D263D80B1B6326B30062401D /* LaunchScreen.xib */; };
+		D263D8141B63327B0062401D /* WebHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D263D8131B63327B0062401D /* WebHomeViewController.m */; };
+		D263D8151B63327B0062401D /* WebHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D263D8131B63327B0062401D /* WebHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,7 +150,6 @@
 		D22FBA9C1B62A70600B03BC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D22FBA9D1B62A70600B03BC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D22FBAA01B62A70700B03BC0 /* AZBrainFoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AZBrainFoodApp.xcdatamodel; sourceTree = "<group>"; };
-		D22FBAA61B62A70700B03BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D22FBAA81B62A70700B03BC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D22FBAB11B62A70700B03BC0 /* AZBrainFoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZBrainFoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22FBAB61B62A70700B03BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -231,6 +231,8 @@
 		D263D8051B6325EA0062401D /* BrainfoodFactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainfoodFactsViewController.h; sourceTree = "<group>"; };
 		D263D80A1B6325F30062401D /* BrainFoodControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainFoodControllerViewController.h; sourceTree = "<group>"; };
 		D263D80B1B6326B30062401D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
+		D263D8121B63327B0062401D /* WebHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebHomeViewController.h; sourceTree = "<group>"; };
+		D263D8131B63327B0062401D /* WebHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,7 +335,6 @@
 				D22FBAF61B62B7BD00B03BC0 /* ExpirationDateObject.h */,
 				D22FBA9C1B62A70600B03BC0 /* AppDelegate.h */,
 				D22FBA9D1B62A70600B03BC0 /* AppDelegate.m */,
-				D22FBAA51B62A70700B03BC0 /* Main.storyboard */,
 				D2094D251B62F3AD00D96389 /* GroceryStoresViewController.h */,
 				D2094D261B62F3AD00D96389 /* GroceryStoresViewController.m */,
 				D2440FE41B62DDBB000F9BE4 /* ViewController.h */,
@@ -387,6 +388,8 @@
 				D263D78B1B6324300062401D /* AZBrainFoodApp.xcdatamodeld */,
 				D263D78D1B6324300062401D /* LaunchScreen.xib */,
 				D263D78F1B6324300062401D /* Mainh.storyboard */,
+				D263D8121B63327B0062401D /* WebHomeViewController.h */,
+				D263D8131B63327B0062401D /* WebHomeViewController.m */,
 				D263D7911B6324300062401D /* bashas-logo.png */,
 				D263D7921B6324300062401D /* boeing-logo1.png */,
 				D263D7931B6324300062401D /* boeingecf.png */,
@@ -515,7 +518,6 @@
 				D263D7DD1B6324300062401D /* food.png in Resources */,
 				D263D7DB1B6324300062401D /* farns-logo.png in Resources */,
 				D263D7BD1B6324300062401D /* AZBrainfood_logo2.png in Resources */,
-				D22FBAA71B62A70700B03BC0 /* Main.storyboard in Resources */,
 				D263D7CB1B6324300062401D /* brain4 copy.png in Resources */,
 				D263D7BB1B6324300062401D /* AZBrainfood_logo.png in Resources */,
 				D263D7F31B6324300062401D /* safeway-logo.jpg in Resources */,
@@ -598,6 +600,7 @@
 				D22FBAA11B62A70700B03BC0 /* AZBrainFoodApp.xcdatamodeld in Sources */,
 				D263D7DF1B6324300062401D /* FoodViewController.m in Sources */,
 				D263D7BF1B6324300062401D /* AZBrainFoodApp.xcdatamodeld in Sources */,
+				D263D8141B63327B0062401D /* WebHomeViewController.m in Sources */,
 				D263D8081B6325EA0062401D /* BrainfoodFactsViewController.m in Sources */,
 				D22FBAF81B62B7C300B03BC0 /* ExpirationDateObject.m in Sources */,
 				D263D8061B6325EA0062401D /* BrainFoodControllerViewController.m in Sources */,
@@ -614,6 +617,7 @@
 			files = (
 				D22FBAB81B62A70700B03BC0 /* AZBrainFoodAppTests.m in Sources */,
 				D263D7F61B6324300062401D /* SponsorsViewController.m in Sources */,
+				D263D8151B63327B0062401D /* WebHomeViewController.m in Sources */,
 				D263D8071B6325EA0062401D /* BrainFoodControllerViewController.m in Sources */,
 				D263D7E01B6324300062401D /* FoodViewController.m in Sources */,
 				D263D7F01B6324300062401D /* PLViewController.m in Sources */,
@@ -634,14 +638,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D22FBAA51B62A70700B03BC0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D22FBAA61B62A70700B03BC0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D263D78D1B6324300062401D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
