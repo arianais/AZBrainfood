@@ -80,11 +80,12 @@
                         <color key="backgroundColor" red="0.18191682449999999" green="0.18191682449999999" blue="0.18191682449999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sponsors" image="dollar-white-md.png" id="bu6-al-RNI"/>
+                    <navigationItem key="navigationItem" id="pCq-2N-Zam"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZwR-Ni-cVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="391.5" y="-1599.5"/>
+            <point key="canvasLocation" x="745.5" y="-1336.5"/>
         </scene>
         <!--Brainfood Facts View Controller-->
         <scene sceneID="3i7-pl-mGH">
@@ -304,7 +305,6 @@
                     <connections>
                         <segue destination="Kkh-6w-cgg" kind="relationship" relationship="viewControllers" id="ghS-pc-Cwi"/>
                         <segue destination="1Dd-qB-pnV" kind="relationship" relationship="viewControllers" id="GPH-sN-A6K"/>
-                        <segue destination="j7U-AV-D56" kind="relationship" relationship="viewControllers" id="oYd-VV-sHu"/>
                         <segue destination="UfM-mn-WAW" kind="relationship" relationship="viewControllers" id="kBe-D4-YDE"/>
                     </connections>
                 </tabBarController>
@@ -378,6 +378,15 @@
                                     <action selector="timeButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5lj-xR-7EP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3x-sS-mme">
+                                <rect key="frame" x="154" y="565" width="66" height="30"/>
+                                <state key="normal" title="Sponcers">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="j7U-AV-D56" kind="push" id="Wtn-XX-I7a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.18191682449494939" green="0.18191682449494939" blue="0.18191682449494939" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -386,7 +395,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="510.5" y="-573.5"/>
+            <point key="canvasLocation" x="354.5" y="-814.5"/>
         </scene>
         <!--Food View Controller-->
         <scene sceneID="A6Z-YA-xtT">
@@ -714,7 +723,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yre-5w-cBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1631.5" y="-3025.5"/>
+            <point key="canvasLocation" x="1935.5" y="-3063.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HWh-s1-AF7">
@@ -872,6 +881,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJM-o6-FVh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-957.5" y="-2529.5"/>
+        </scene>
+        <!--Web Home View Controller-->
+        <scene sceneID="Fcd-tz-0Er">
+            <objects>
+                <viewController id="bnV-aN-I2Y" customClass="WebHomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vCS-Tl-Ac8"/>
+                        <viewControllerLayoutGuide type="bottom" id="dCw-QV-cc5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dhi-2E-xrm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s0c-65-YV0">
+                                <rect key="frame" x="0.0" y="68" width="375" height="609"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U98-TP-nLZ">
+                                <rect key="frame" x="0.0" y="29" width="375" height="26"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="bnV-aN-I2Y" eventType="touchUpInside" id="pmr-cU-k66"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="back" destination="U98-TP-nLZ" id="S37-07-jvU"/>
+                        <outlet property="webview" destination="s0c-65-YV0" id="vQL-gW-rfl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DWr-5l-5Oe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1333.5" y="-3257.5"/>
         </scene>
     </scenes>
     <resources>
