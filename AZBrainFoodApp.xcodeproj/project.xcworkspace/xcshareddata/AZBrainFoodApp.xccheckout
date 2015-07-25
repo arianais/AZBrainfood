@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD8DB4B2-BB88-4E89-9C63-99EAD50812FB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AZBrainFoodApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE968B41B15C5E4F885CB1C20C2D04ED6707DE98</key>
+		<string>https://github.com/arianais/AZBrainfood.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AZBrainFoodApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE968B41B15C5E4F885CB1C20C2D04ED6707DE98</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arianais/AZBrainfood.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE968B41B15C5E4F885CB1C20C2D04ED6707DE98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE968B41B15C5E4F885CB1C20C2D04ED6707DE98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AZBrainfood</string>
+		</dict>
+	</array>
+</dict>
+</plist>
